@@ -1,0 +1,103 @@
+
+Day 1
+Challenges in traditional Infrastructure
+
+  e.g. Startup
+        |  |
+        |   xyz.com
+        |       |
+        |      develope end user application                  Capital
+        |                 | 
+        |            e-commerce
+        |
+      assumption
+        |
+         customer base - 100
+                     Resource
+                        | 
+                      servers - 20
+                      
+
+challeges
+  Scenario - 1
+    customer base -> 1000
+    
+    1. Performace issue 
+    2. load
+    3. servers over utilised
+    4. latency 
+    5. delay
+
+
+solution 
+   1. increase number of servers
+
+challenge 
+   1. increased capital
+
+
+Solution 
+
+    Every thing as a service
+                     |
+                    Services
+                       |
+                     Cloud computing
+                         |
+                      Utilising the serveices of cloud providers
+                         |
+                      AWS- Amazon web services
+                      Azure
+                      GCP- Google cloud provider
+
+
+Amazon Web Services
+
+     Free Tier Account
+     
+ Types of Cloud
+      1. private
+      2. public
+      3. Hybrid
+ 
+Cloud Services Modules
+      1. Infrastructure as a Service
+      2. Platform As a Service
+      3. Software As a Service
+
+
+Virtualization
+     is a technology used to create virtual representation of something
+
+
+What is interface used to interact with AWS services
+
+AWS console    
+
+MFA
+
+Billing
+
+
+Day2
+
+1. AWS Global Infrastructure
+2. Amazon EC2
+   Hands on excercise
+      Launching Linux EC2
+      Launching Windows EC2
+      Connecting to Linux EC2 and install http with index.html
+      Connecting to windows EC2 and install IIS with index.html
+
+
+AWS Infrastructure
+    
+
+    Datacenter
+        |
+        Region
+            |
+          Availability zones
+              |
+             EC2
+ 

@@ -84,9 +84,10 @@ Day2
 1. AWS Global Infrastructure
 2. Amazon EC2
    Hands on excercise
-      Launching Linux EC2
-      Launching Windows EC2
-      Connecting to Linux EC2 and install http with index.html
+      Launching Linux EC2  
+      Launching Windows EC2  
+      Connecting to Linux EC2 and install http with index.html - yum install httpd -y , systemctl status httpd, sudo systemctl start httpd - start httpd server
+      systemctl enable httpd - start the httpd server on luanch of machine 
       Connecting to windows EC2 and install IIS with index.html
 
 
@@ -101,3 +102,12 @@ AWS Infrastructure
               |
              EC2
  
+Exercise 
+
+    1. Create ane text file  sudo nano TextFile.txt
+    2. Add content to text file Ctrl+X-Save Y Enter
+    3. dispaly the content from text file - cat TextFile.txt
+    4. Install java on your instance   - yum install java -y
+
+
+

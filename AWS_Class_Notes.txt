@@ -108,6 +108,15 @@ Exercise
     2. Add content to text file Ctrl+X-Save Y Enter
     3. dispaly the content from text file - cat TextFile.txt
     4. Install java on your instance   - yum install java -y
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Day3
+    Excercise
+       Linux EC2 and httpd with index.htl
+       Windows EC2 and IIS with index.html
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Day 4
+   User Data
+   Load Balancing 
 
 

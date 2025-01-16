@@ -20,6 +20,40 @@ See 'snap info docker' for additional versions.
 \_    sudo docker stop my-docker-nginx                              => to stop the docker container
 \_    sudo docker start my-docker-nginx                             => to stop docker container 
 
+                                                    Dockerfile
+
+A Dockerfile is essentially a text file (literally written as "Dockerfile" with no extension) 
+that contains instructions for creating a Docker image.
+
+
+Now, follow the steps below to create the Dockerfile:
+
+Step#1 - Specify the base image
+         
+         FROM python:3.11-slim
+
+Step#2 - Set the working directory
+
+         WORKDIR /app 
+
+Step#3 - Install dependencies
+
+         RUN pip install flask==2.3
+
+Step#4 - Copy application files to the container
+
+         COPY . /app
+
+Step#5 - Specify the environment variable
+
+         ENV FLASK_APP=app.py
+
+Step#6 - Define the default command
+
+         CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]
+
+   
+      
                                                     Custom COntainer
 
 
@@ -83,7 +117,7 @@ Commands:
   commit      Create a new image from a container's changes
   cp          Copy files/folders between a container and the local filesystem
   create      Create a new container
-  diff        Inspect changes to files or directories on a container's filesystem
+  diff   u     Inspect changes to files or directories on a container's filesystem
   events      Get real time events from the server
   export      Export a container's filesystem as a tar archive
   history     Show the history of an image

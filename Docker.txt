@@ -16,8 +16,24 @@ See 'snap info docker' for additional versions.
 \_    sudo docker images                                            => to check the available docker images
 \_    sudo docker run --name my-docker-nginx-server -p 80:80 nginx  => Notice also that in your terminal, a log for Nginx is being updated when you make requests to your server. This is because you’re running your container interactively.    
 \_    Ctrl + C                                                      => Exit running server
-\_   sudo docker run --name my-docker-nginx -p80:80 -d nginx        => Create a new, detached Nginx container with this command:
- 
+\_    sudo docker run --name my-docker-nginx -p80:80 -d nginx       => Create a new, detached Nginx container with this command:
+\_    sudo docker stop my-docker-nginx                              => to stop the docker container
+\_    sudo docker start my-docker-nginx                             => to stop docker container 
+
+                                                    Custom COntainer
+
+
+Step#1 - install docker
+
+Step#2 - Create App to be run on container
+
+Step#3 - Create dockerfile 
+
+Step#4 - Create image from docker file
+
+Ste#5 - create docker container based on docker file
+
+
 
 
                                                       Docker commands
